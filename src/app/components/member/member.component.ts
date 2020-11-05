@@ -8,7 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MemberComponent implements OnInit {
   @Input() member;
 
+  show = false;
+
   constructor() { }
+
+  onMemberClick() {
+    this.show = !this.show;
+  }
 
   ngOnInit(): void {
     

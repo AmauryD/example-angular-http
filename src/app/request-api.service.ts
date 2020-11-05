@@ -16,7 +16,7 @@ export class RequestApiService {
   constructor(private http: HttpClient) {
     this.credentials = {
       user : "fablabapp",
-      password : "------"
+      password : "Fx3KEFES1dP#bD^vy(iIQRNv"
     }
     this.apiPath = "https://www.fablabwapi.be";
   }
